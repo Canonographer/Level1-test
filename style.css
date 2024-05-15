@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, "Lucida Grande", sans-serif;
+    background: #011b1b;
+    color: black;
+}
+
+
+
+
+#text{
+    padding-top: 12px;
+    color: rgb(0, 0, 0);
+}
+
+li{
+    padding: 4px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
